@@ -1,0 +1,64 @@
+.card-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.answer-button {
+    margin: 10px;
+    width: 150px;
+    height: 200px; 
+    border: none;
+    background: none;
+    flex: 0 0 calc(25% - 20px);
+    object-fit: contain;
+}
+
+.answer-text {
+    text-align: center;
+    margin-top: 10px;
+    white-space: nowrap;
+}
+
+body {
+margin: 1%;
+}
+
+
+.card {
+    align-items: center;
+}
+
+.card-img-top {
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.img-fluid {
+    width: 150px;
+    height: 150px;
+    margin: 3%;
+}
+
+#restart-button {
+    display: none;
+}
+
+.result-card {
+    margin: 1%; 
+    border: 2px solid transparent; 
+}
+
+.result-card.correct {
+    border-color: green; 
+}
+
+.result-card.incorrect {
+    border-color: red; 
+}
+
+.results-container {
+    display: flex;
+    justify-content: center;
+}
